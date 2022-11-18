@@ -1,0 +1,60 @@
+.header {
+    // .header__logo
+    color: $white;
+    display: flex;
+    gap: 2em;
+    justify-content: space-between;
+    > * {
+        flex: 0 0 250px;
+    }
+    &__logo {
+    }
+
+    // .header__logo--img
+
+    &__logo--img {
+        width: 100%;
+    }
+
+    // .header__sponsor
+
+    &__sponsor {
+        text-align: center;
+        span {
+            display: block;
+        }
+        &--fz {
+            font-size: 1.285em;
+        }
+    }
+
+    // .header__sponsor--fw500
+
+    &__sponsor--fw500 {
+        font-weight: 500;
+    }
+
+    // .header__contact
+
+    &__contact {
+    }
+
+    // .header__phone
+
+    &__phone {
+        text-decoration: none;
+        font-weight: 700;
+        text-align: end;
+        font-size: 1.285em;
+        display: block;
+        margin-bottom: 4px;
+    }
+
+    // .header__btn
+
+    &__btn {
+        font-size: 0.85em;
+        margin-left: auto;
+        display: block;
+    }
+}

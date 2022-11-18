@@ -1,0 +1,50 @@
+body {
+    font-size: 14px;
+    line-height: 150%;
+    font-weight: 300;
+    font-family: "MuseoModerno";
+    color: $black;
+}
+a {
+    color: inherit;
+}
+.container942,
+.container952 {
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 15px;
+}
+.container942 {
+    max-width: 972px;
+}
+.container952 {
+    max-width: 982px;
+}
+
+.button {
+    font-weight: 500;
+    padding: 6px 20px;
+    background-color: $red;
+    text-transform: uppercase;
+    border-radius: 5px;
+    color: $white;
+    border: none;
+    transition: all 0.3s;
+}
+
+.page-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.142857142857143em;
+    text-transform: uppercase;
+
+    &--text-left {
+        text-align: left;
+        font-size: 2.571428571428571em;
+    }
+}
+.page-subtitle--text-left {
+    text-align: left;
+    font-weight: 500;
+    font-size: 1.428571428571429em;
+}

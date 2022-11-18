@@ -1,0 +1,22 @@
+.feed-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 300px;
+    input {
+        border: none;
+        padding: 5px 20px;
+        font-weight: 400;
+        font-size: 1em;
+        color: $grey;
+        border-radius: 5px;
+        min-height: 52px;
+    }
+    &__btn {
+        margin-top: 5px;
+        font-size: 1.142857142857143em;
+        min-height: 58px;
+        width: 100%;
+        padding: 0;
+    }
+}

@@ -31,4 +31,16 @@ $(document).ready(function () {
             });
         });
     }
+    // const hidder = document.querySelector('.hidder'),
+    //     footerInfo = document.querySelector('.footer__info');
+    // hidder.addEventListener('click', () => {
+    //     console.log('hi');
+    //     footerInfo.classList.toggle('footer__info--active');
+    // });
+
+    $('.hidder').on('click', () => {
+        $('.footer__info').toggleClass('footer__info--active');
+    });
+
 });
+

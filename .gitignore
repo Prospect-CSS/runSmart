@@ -1,5 +1,5 @@
 node_modules/
-dist\mailer
+dist/mailer
 src/
 .gitignore
 .jshintc

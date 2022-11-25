@@ -23,6 +23,8 @@
         margin-bottom: 35px;
         max-width: 70px;
         max-height: 70px;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
     }
 
     // .advantages__title
@@ -44,4 +46,10 @@
     &__text--red {
         color: $red;
     }
+}
+#animated {
+    animation-name: heartbeat;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
 }

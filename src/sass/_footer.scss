@@ -20,9 +20,8 @@
     &__info {
         position: absolute;
         top: 0;
-        left: 50%;
+        left: calc(50% - 143px);
         z-index: 3;
-        transform: translateX(-50%);
         background-color: $red;
         padding: 50px 53px 56px 53px;
         display: flex;

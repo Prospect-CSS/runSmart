@@ -1,5 +1,11 @@
 node_modules/
-dist/
+dist\mailer
+src/
+.gitignore
+.jshintc
+gulpfile.js
+package-lock.json
+package.json
 undefined
 **/*.rar
 **/*.zip
